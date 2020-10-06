@@ -3,14 +3,20 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		04458BE2235D1A68A582ED46 /* Pods_CardLottieAnimation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C822CE1244466AD1407F6DB8 /* Pods_CardLottieAnimation.framework */; };
 		9E1EFC41252CEFC000CD4D99 /* CardLottieAnimationApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E1EFC40252CEFC000CD4D99 /* CardLottieAnimationApp.swift */; };
 		9E1EFC43252CEFC000CD4D99 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E1EFC42252CEFC000CD4D99 /* ContentView.swift */; };
 		9E1EFC45252CEFC100CD4D99 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9E1EFC44252CEFC100CD4D99 /* Assets.xcassets */; };
 		9E1EFC48252CEFC100CD4D99 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9E1EFC47252CEFC100CD4D99 /* Preview Assets.xcassets */; };
+		9E1EFC56252CF74800CD4D99 /* LottieView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E1EFC55252CF74800CD4D99 /* LottieView.swift */; };
+		9E1EFC59252CF95900CD4D99 /* LottieCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E1EFC58252CF95900CD4D99 /* LottieCard.swift */; };
+		9EDB56AC252D0F9200EB68F5 /* back-to-school.json in Resources */ = {isa = PBXBuildFile; fileRef = 9EDB56A9252D0F9200EB68F5 /* back-to-school.json */; };
+		9EDB56AD252D0F9200EB68F5 /* electric_car.json in Resources */ = {isa = PBXBuildFile; fileRef = 9EDB56AA252D0F9200EB68F5 /* electric_car.json */; };
+		9EDB56AE252D0F9200EB68F5 /* sending-email.json in Resources */ = {isa = PBXBuildFile; fileRef = 9EDB56AB252D0F9200EB68F5 /* sending-email.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +26,14 @@
 		9E1EFC44252CEFC100CD4D99 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9E1EFC47252CEFC100CD4D99 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		9E1EFC49252CEFC100CD4D99 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9E1EFC55252CF74800CD4D99 /* LottieView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottieView.swift; sourceTree = "<group>"; };
+		9E1EFC58252CF95900CD4D99 /* LottieCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottieCard.swift; sourceTree = "<group>"; };
+		9EDB56A9252D0F9200EB68F5 /* back-to-school.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "back-to-school.json"; sourceTree = "<group>"; };
+		9EDB56AA252D0F9200EB68F5 /* electric_car.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = electric_car.json; sourceTree = "<group>"; };
+		9EDB56AB252D0F9200EB68F5 /* sending-email.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "sending-email.json"; sourceTree = "<group>"; };
+		BC9680A284ADBDB7083001DB /* Pods-CardLottieAnimation.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CardLottieAnimation.debug.xcconfig"; path = "Target Support Files/Pods-CardLottieAnimation/Pods-CardLottieAnimation.debug.xcconfig"; sourceTree = "<group>"; };
+		C822CE1244466AD1407F6DB8 /* Pods_CardLottieAnimation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CardLottieAnimation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBC7748F695BF4C43373D1EF /* Pods-CardLottieAnimation.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CardLottieAnimation.release.xcconfig"; path = "Target Support Files/Pods-CardLottieAnimation/Pods-CardLottieAnimation.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -27,17 +41,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04458BE2235D1A68A582ED46 /* Pods_CardLottieAnimation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1FF4FD424659D7B499F07D84 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BC9680A284ADBDB7083001DB /* Pods-CardLottieAnimation.debug.xcconfig */,
+				CBC7748F695BF4C43373D1EF /* Pods-CardLottieAnimation.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		6C3A0B774BDDCB2E83F3E854 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C822CE1244466AD1407F6DB8 /* Pods_CardLottieAnimation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		9E1EFC34252CEFBF00CD4D99 = {
 			isa = PBXGroup;
 			children = (
 				9E1EFC3F252CEFC000CD4D99 /* CardLottieAnimation */,
 				9E1EFC3E252CEFC000CD4D99 /* Products */,
+				1FF4FD424659D7B499F07D84 /* Pods */,
+				6C3A0B774BDDCB2E83F3E854 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -52,8 +86,15 @@
 		9E1EFC3F252CEFC000CD4D99 /* CardLottieAnimation */ = {
 			isa = PBXGroup;
 			children = (
+				9EDB56B1252D0FA600EB68F5 /* Model */,
+				9EDB56B0252D0FA100EB68F5 /* View */,
 				9E1EFC40252CEFC000CD4D99 /* CardLottieAnimationApp.swift */,
+				9EDB56A9252D0F9200EB68F5 /* back-to-school.json */,
+				9EDB56AA252D0F9200EB68F5 /* electric_car.json */,
+				9EDB56AB252D0F9200EB68F5 /* sending-email.json */,
 				9E1EFC42252CEFC000CD4D99 /* ContentView.swift */,
+				9E1EFC58252CF95900CD4D99 /* LottieCard.swift */,
+				9E1EFC55252CF74800CD4D99 /* LottieView.swift */,
 				9E1EFC44252CEFC100CD4D99 /* Assets.xcassets */,
 				9E1EFC49252CEFC100CD4D99 /* Info.plist */,
 				9E1EFC46252CEFC100CD4D99 /* Preview Content */,
@@ -69,6 +110,20 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		9EDB56B0252D0FA100EB68F5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		9EDB56B1252D0FA600EB68F5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -76,9 +131,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9E1EFC4C252CEFC100CD4D99 /* Build configuration list for PBXNativeTarget "CardLottieAnimation" */;
 			buildPhases = (
+				9E8461DD950CF2D5AB01794F /* [CP] Check Pods Manifest.lock */,
 				9E1EFC39252CEFC000CD4D99 /* Sources */,
 				9E1EFC3A252CEFC000CD4D99 /* Frameworks */,
 				9E1EFC3B252CEFC000CD4D99 /* Resources */,
+				F40562BC81AB9B688BBF525E /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -127,11 +184,56 @@
 			buildActionMask = 2147483647;
 			files = (
 				9E1EFC48252CEFC100CD4D99 /* Preview Assets.xcassets in Resources */,
+				9EDB56AD252D0F9200EB68F5 /* electric_car.json in Resources */,
+				9EDB56AE252D0F9200EB68F5 /* sending-email.json in Resources */,
 				9E1EFC45252CEFC100CD4D99 /* Assets.xcassets in Resources */,
+				9EDB56AC252D0F9200EB68F5 /* back-to-school.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9E8461DD950CF2D5AB01794F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CardLottieAnimation-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F40562BC81AB9B688BBF525E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CardLottieAnimation/Pods-CardLottieAnimation-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CardLottieAnimation/Pods-CardLottieAnimation-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CardLottieAnimation/Pods-CardLottieAnimation-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		9E1EFC39252CEFC000CD4D99 /* Sources */ = {
@@ -140,6 +242,8 @@
 			files = (
 				9E1EFC43252CEFC000CD4D99 /* ContentView.swift in Sources */,
 				9E1EFC41252CEFC000CD4D99 /* CardLottieAnimationApp.swift in Sources */,
+				9E1EFC59252CF95900CD4D99 /* LottieCard.swift in Sources */,
+				9E1EFC56252CF74800CD4D99 /* LottieView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,10 +368,12 @@
 		};
 		9E1EFC4D252CEFC100CD4D99 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BC9680A284ADBDB7083001DB /* Pods-CardLottieAnimation.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEAD_CODE_STRIPPING = NO;
 				DEVELOPMENT_ASSET_PATHS = "\"CardLottieAnimation/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = CardLottieAnimation/Info.plist;
@@ -285,10 +391,12 @@
 		};
 		9E1EFC4E252CEFC100CD4D99 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CBC7748F695BF4C43373D1EF /* Pods-CardLottieAnimation.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEAD_CODE_STRIPPING = NO;
 				DEVELOPMENT_ASSET_PATHS = "\"CardLottieAnimation/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = CardLottieAnimation/Info.plist;
